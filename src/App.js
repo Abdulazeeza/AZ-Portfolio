@@ -1,10 +1,6 @@
 /* eslint-disable no-unused-vars */
-import "./assets/styles/index.scss";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { layouts } from "./layouts/index";
-import { appPages } from "./pages/appPages/index";
-import "./Fontawesome";
-import { Helmet } from "react-helmet";
+//import { BrowserRouter, Route, Routes } from "react-router-dom";
+//import { Helmet } from "react-helmet";
 
 const App = () => {
   return (
