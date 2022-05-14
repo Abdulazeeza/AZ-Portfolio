@@ -1,0 +1,109 @@
+@import "../../../assets/styles/variables";
+
+.intro-section {
+    background-color: $white-color;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    z-index: 0;
+    padding: 40px;
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background-color: $dark-background;
+        clip-path: polygon(0 0, 100% 0, 100% 20%, 0 100%);
+    }
+
+    &::before {
+        background-color: $light-background;
+        width: 35%;
+        height: 25%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+        clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+    }
+
+    &__bottom-box {
+        background-color: $light-background;
+        width: 60%;
+        height: 55%;
+        top: 90px;
+        position: absolute;
+        right: 0px;
+        z-index: 100;
+        clip-path: polygon(0% 87%, 100% 0, 100% 13%, 0 100%);
+    }
+
+    &__content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        .profile {
+            width: 23%;
+            height: 95%;
+            background: #f7d8fe;
+            clip-path: polygon(0 0, 100% 0, 100% 79%, 0 100%);
+        }
+
+        .bio {
+            padding: 60px 10px 10px 50px;
+
+            hr {
+                background-color: $light-background;
+                width: 100px;
+                margin: 3px 0;
+                height: 2px;
+            }
+
+            &__contact {
+                display: flex;
+                align-items: center;
+                &__item{
+                    display: flex;
+                    align-items: flex-end;
+                }
+                .contact-icon {
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: linear-gradient(180deg, #D090E0 0%, #7F7FF7 100%);
+                    font-size: 12px;
+                    color: $dark-background;
+                }
+            }
+        }
+    }
+
+    .social-medias {
+        position: absolute;
+        right: 40px;
+        top: 15px;
+
+        a {
+            cursor: pointer;
+            margin-left: 15px;
+
+            img {
+                width: 25px;
+                transition: 1s ease;
+
+                &:hover {
+                    transform: rotate(45deg);
+                }
+            }
+        }
+    }
+}

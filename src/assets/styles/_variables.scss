@@ -1,0 +1,24 @@
+$dark-background: #030113;
+$white-color: #fff;
+$light-background: #D090E0;
+
+.dark{
+    background: $dark-background;
+    &--text{
+        color: $dark-background;
+    }
+}
+
+.white{
+    background: $white-color;
+    &--text{
+        color: $white-color;
+    }
+}
+
+.purple{
+    background: $light-background;
+    &--text{
+        color: $light-background;
+    }
+}

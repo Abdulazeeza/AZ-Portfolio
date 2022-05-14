@@ -1,22 +1,24 @@
-/* eslint-disable no-unused-vars */
-//import { BrowserRouter, Route, Routes } from "react-router-dom";
-//import { Helmet } from "react-helmet";
+import "./Fontawesome";
+import "./assets/styles/index.scss";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Helmet } from "react-helmet";
+import { layouts } from "./layouts";
+import { pages } from "./pages";
 
 const App = () => {
   return (
-    // <BrowserRouter>
-    //   <layouts.MainLayout>
-    //     <Helmet>
-    //       <title>Lumi Merchant</title>
-    //       <meta name="description" content="Lumi Merchant" />
-    //     </Helmet>
-    //     <Routes>
-    //       {/* This is a sample route*/}
-    //       <Route path="/" element={<appPages.Home />} />
-    //     </Routes>
-    //   </layouts.MainLayout>
-    // </BrowserRouter>
-    <div>New portfolio</div>
+    <BrowserRouter>
+      <layouts.MainLayout>
+        <Helmet>
+          <title>Abdulazeez Aiyeleso Portfolio</title>
+          <meta name="description" content="Abdulazeez Aiyeleso Portfolio" />
+        </Helmet>
+        <Routes>
+          {/* This is a sample route*/}
+          <Route path="/" element={<pages.Home/> } />
+        </Routes>
+      </layouts.MainLayout>
+    </BrowserRouter>
   );
 };
 
