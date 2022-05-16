@@ -82,7 +82,7 @@
         }
 
         .profile {
-            width: 23%;
+            width: max-content;
             height: 95%;
             background: #f7d8fe;
             clip-path: polygon(0 0, 100% 0, 100% 79%, 0 100%);
@@ -97,17 +97,17 @@
             }
 
             @include respond-to("big-tablet") {
-                height: 150px;
+                height: 170px;
             }
 
             @include respond-to("tablet") {
-                width: 150px;
-                height: 150px;
+                width: 170px;
+                height: 170px;
             }
 
             @include respond-to("mobile") {
                 width: 200px;
-                height: 150px;
+                height: 170px;
                 margin: 0 auto;
             }
             img{
