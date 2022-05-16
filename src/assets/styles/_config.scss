@@ -1,5 +1,6 @@
 // bootsstrap library
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css');
+@import "./mixins";
 
 //set custom fonts
 @font-face {
@@ -32,4 +33,32 @@ ul {
 button {
   outline: none;
   cursor: pointer;
+}
+
+h5{
+  font-weight: 600;
+}
+
+@include respond-to("tablet") {
+  h1{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 25px;
+  }
+  h3{
+    font-size: 22px;
+  }
+  h4{
+    font-size: 20px;
+  }
+  h5{
+    font-size: 18px;
+  }
+  p{
+    font-size: 16px;
+  }
+  h6{
+    font-size: 14px;
+  }
 }

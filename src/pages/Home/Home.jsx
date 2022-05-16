@@ -1,10 +1,12 @@
+import "./Home.scss";
 import { secondaryComponents } from "../../components/secondaryComponents";
 
 const Home = () => {
     return (
-        <div class="landing-page">
+        <div className="landing-page">
+            <a href="" className="download-resume">Download Resume</a>
             <secondaryComponents.IntroSection />
-            <main>sss</main>
+            <secondaryComponents.MainContent />
         </div>
     )
 };

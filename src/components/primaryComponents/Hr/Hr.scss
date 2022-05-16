@@ -1,0 +1,15 @@
+@import "../../../assets/styles/variables";
+
+.custom-hr{
+    width: 100%;
+    height: 1px;
+    background-color: $light-background;
+    position: relative;
+    &__inner{
+        width: 100px;
+        background:$light-background;
+        height: 3px;
+        top: -1px;
+        position: absolute;
+    }
+}

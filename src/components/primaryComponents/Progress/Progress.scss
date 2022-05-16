@@ -1,0 +1,28 @@
+@import "../../../assets/styles/variables";
+
+.custom-progress {
+    width: 100%;
+    height: 2px;
+    border-radius: 3px;
+    background-color: #f7d8fe;
+    &__inner {
+        background: $light-background;
+        height: 100%;
+        position: relative;
+        transition: 3s ease;
+
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            right: 0;
+            width: 13px;
+            height: 13px;
+            border-radius: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #030113;
+            border: 2px solid #D090E0;
+        }
+    }
+}
