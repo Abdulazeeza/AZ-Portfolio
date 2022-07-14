@@ -10,7 +10,7 @@ const Experience = () => {
       <primaryComponents.Hr />
       <div className="mt-4">
         <primaryComponents.VerticalProgress>
-          <h6 className="dark--text mb-0">March 2021 - Date</h6>
+          <h6 className="dark--text mb-0">July 2021 - Date</h6>
           <h5 className="dark--text mb-0">Enlumi - Frontend Engineer</h5>
           <ul>
             <li>
