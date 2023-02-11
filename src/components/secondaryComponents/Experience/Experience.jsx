@@ -11,59 +11,54 @@ const Experience = () => {
       <div className="mt-4">
         <primaryComponents.VerticalProgress>
           <h6 className="dark--text mb-0">July 2021 - Date</h6>
-          <h5 className="dark--text mb-0">Enlumi - Frontend Engineer</h5>
+          <h5 className="dark--text mb-0">Enlumi - Lead Frontend Engineer</h5>
           <ul>
             <li>
-              Serving as the frontend lead in a team of eight, I work alongside
-              my team to upgrade our web application from version 1 to 2, which
-              led to an increase of more than 70,000 users within two months,
-              which was double the number achieved in the last 12 months. This
-              application helps businesses understand and better connect with
-              their daily consumers and was built using React.js and Django (
-              <a
-                className="purple--text"
-                style={{ fontWeight: 600 }}
-                href="https://www.getlumi.io"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://www.getlumi.io
-              </a>
-              ,{" "}
-              <a
-                className="purple--text"
-                style={{ fontWeight: 600 }}
-                href="https://www.Insiight.io"
-                target="_blank"
-                rel="noreferrer"
-              >
-                https://www.Insiight.io
-              </a>
-              ).
+              Developed a fintech application that allows users to send and
+              receive money, buy airtime, and pay their bills while earning
+              cashback on their purchases. Within 7 months of its release, this
+              product gained more than 200 thousand customers, which helped my
+              company maintain stability as a startup
+            </li>
+            <li>
+              Built an application that enables merchants to receive payments
+              and give cashback to their customers. This application has helped
+              many businesses to understand their customers behaviors and
+              creates a loyalty system that enables a business to retain and
+              reach out to more customers
+            </li>
+            <li>
+              Built an application that allows businesses to find out more about
+              their products, ideas, or solutions by enabling businesses to
+              publish surveys while we automatically connect them to our users
+              for feedback. This application also allows businesses to publish
+              ads and generate leads
             </li>
             <li>
               Collaborate with my team to design, structure, and plan the
               frontend of an application or feature while ensuring that best
               practices such as testing, proper documentation, and agreed-upon
-              conventions are followed.
+              conventions are followed
             </li>
             <li>
-              Collaborate with my team to design, structure, and plan the
-              frontend of an application or feature while ensuring that best
-              practices such as testing, proper documentation, and agreed-upon
-              conventions are followed.
+              Implement CICD pipelines that enable us as a team to automate
+              deployment processes and integrate our applications with Sentry to
+              pick up production errors as soon as they occur without having to
+              wait for users to file complaints
+            </li>
+            <li>
+              Follow up and discuss with the frontend team members on their
+              daily tasks to ensure there are no blockers and features are
+              implemented efficiently while I also assist interns in gaining a
+              solid ground as a frontend developer
+            </li>
+            <li>
+              Develop robust chart systems that can visualize data in real time
+              which allows businesses to derive meanings from their results
             </li>
             <li>
               Give weekly reports about our progress as a team to the CTO and
-              discuss general concerns and developments.
-            </li>
-            <li>
-              Develop robust chart systems that can visualize data in real-time
-              which allows businesses to derive meanings from their results.
-            </li>
-            <li>
-              Supervise and assist interns in their journey to becoming a
-              frontend developer
+              discuss general concerns and developments
             </li>
           </ul>
         </primaryComponents.VerticalProgress>
@@ -72,59 +67,63 @@ const Experience = () => {
           <h5>Brandmobile Africa - Frontend Engineer</h5>
           <ul>
             <li>
-              Served as a frontend lead in a team of five. Worked alongside my
-              team to build a platform that enables retailers without capital to
-              have access to products at no upfront cost, sell them and make
-              profits while helping hundreds of product owners scale their reach
-              to customers. (
-              <a
-                style={{ fontWeight: 600 }}
-                href="https://kuuzza.com"
-                target="_blank"
-                rel="noreferrer"
-                className="purple--text"
-              >
-                https://kuuzza.com
-              </a>
-              )
+              Built a platform that enables retailers without capital to have
+              access to products at no upfront cost, sell them and make profits
+              while helping hundreds of product owners scale their reach to
+              customers
+            </li>
+            <li>
+              Crafted an application that enables a TV show with over 10,000
+              applicants and millions of voters to ease users registration,
+              application screening, and voting etc.
             </li>
             <li>
               Collaborate with my team to design, structure, and plan the
               frontend of an application or feature while ensuring that best
               practices such as unit testing, proper documentation, and
-              agreed-upon conventions are followed. I also work alongside my
-              team to code out different modules of an application.
-            </li>
-            <li>
-              Crafted some frontend components using Quasar for a web
-              application used by a popular television show called Gulder
-              ultimate search. This show has over 10,000 applicants each year,
-              and the web application built is responsible for easing the
-              processes involved in the show, such as user registration,
-              application screening, voting, etc.
+              agreed-upon conventions are followed
             </li>
           </ul>
         </primaryComponents.VerticalProgress>
         <primaryComponents.VerticalProgress>
           <h6 className="dark--text mb-0">June 2020 - August 2020</h6>
-          <h5>HNG Internship - Frontend Developer</h5>
+          <h5>HNG I7 - Frontend Developer</h5>
           <ul>
             <li>
-              This internship is like a competition, it has over 11,000
-              candidates accepted into it. There are 10 stages present in the
-              internship, each stage comes with its challenges. For each stage,
-              we are divided into teams to work on a task or project.
+              This is a competition with over 11,000 candidates. There are 10
+              stages present, and each stage comes with its own challenges. For
+              each stage, we are divided into teams to work on a task or
+              project, which exposed me to a lot of great minds and broadened my
+              knowledge.
             </li>
             <li>
-              This internship was a good drill for me that gave me exposure,
-              patience, improved my resilience, and taught me more about
-              teamwork. In the end, I was able to make it to the final and come
-              out as a winner alongside other members of about 200 plus out of
-              11,000 plus candidates.
+              Helped upcoming developers who needed laptops but didn't have the
+              funds to get loans or sponsors by creating a platform that
+              connects developers and donors.
             </li>
             <li>
-              On this journey, I worked on several web applications which helped
-              to improve my technical skills.
+              Built a product that provides APIs for developers to ease and
+              hasten development processes
+            </li>
+          </ul>
+        </primaryComponents.VerticalProgress>
+        <primaryComponents.VerticalProgress>
+          <h6 className="dark--text mb-0">January 2019 - March 2020</h6>
+          <h5>Hiosoft Technology - Frontend Developer</h5>
+          <ul>
+            <li>
+              Raised investments for farmers by developing an application that
+              enables investors to invest in farming and get returns on their
+              investment
+            </li>
+            <li>
+              Improved customers experience by building a chatbot that helps to
+              answer questions about customers concerns or challenges
+            </li>
+            <li>
+              Built an e-learning platform that enables learners to gain access
+              to resources like videos and notes that helps to aid their journey
+              in computer programming .
             </li>
           </ul>
         </primaryComponents.VerticalProgress>

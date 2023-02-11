@@ -1,15 +1,14 @@
 @import "../../../assets/styles/variables";
 @import "../../../assets/styles/mixins";
 
-.experiences {
+.projects {
   ul {
     padding-left: 30px;
-    @include respond-to("mobile") {
-      padding-left: 20px;
-    }
+
     li {
       color: $dark-background;
       list-style: none;
+
       &::before {
         content: "\2022";
         color: $light-background;

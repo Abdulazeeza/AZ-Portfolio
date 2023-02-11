@@ -2,94 +2,94 @@
 @import "../../../assets/styles/mixins";
 
 .landing-page__main {
-    background: transparent;
-    margin-top: -405px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 40px;
-    flex-wrap: wrap;
+  background: transparent;
+  margin-top: -405px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  flex-wrap: wrap;
 
-    @include respond-to("small") {
-        padding: 40px 4%;
-        margin-top: -440px;
-    }
+  @include respond-to("small") {
+    padding: 40px 4%;
+    margin-top: -440px;
+  }
+
+  @include respond-to("big-tablet") {
+    margin-top: -480px;
+    padding: 0;
+  }
+
+  @include respond-to("mobile") {
+    margin-top: -401px;
+  }
+
+  &__left {
+    width: 35%;
+    background-color: $dark-background;
+    min-height: 500px;
+    clip-path: polygon(0% 410px, 100% 270px, 100% 100%, 0 100%);
+    position: sticky;
+    top: -270px;
+    padding: 450px 30px 40px 30px;
+    height: max-content;
 
     @include respond-to("big-tablet") {
-        margin-top: -480px;
-        padding: 0;
+      width: 100%;
+      position: relative;
+      top: 0;
+      clip-path: polygon(0% 450px, 100% 20px, 100% 100%, 0 100%);
     }
 
     @include respond-to("mobile") {
-        margin-top: -401px;
+      clip-path: polygon(0% 390px, 100% 230px, 100% 100%, 0 100%);
+      padding: 380px 4% 40px 4%;
     }
 
-    &__left {
-        width: 35%;
-        background-color: $dark-background;
-        min-height: 500px;
-        clip-path: polygon(0% 410px, 100% 270px, 100% 100%, 0 100%);
-        position: sticky;
-        top: -270px;
-        padding: 450px 30px 40px 30px;
-        height: max-content;
+    .box-design {
+      width: 100%;
+      background: $light-background;
+      position: absolute;
+      width: 100%;
+      min-height: 380px;
+      right: 0;
+      clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 25%);
+      top: 0;
 
-        @include respond-to("big-tablet") {
-            width: 100%;
-            position: relative;
-            top: 0;
-            clip-path: polygon(0% 450px, 100% 20px, 100% 100%, 0 100%);
-        }
-
-        @include respond-to("mobile") {
-            clip-path: polygon(0% 390px, 100% 230px, 100% 100%, 0 100%);
-            padding: 380px 4% 40px 4%;
-        }
-
-        .box-design {
-            width: 100%;
-            background: $light-background;
-            position: absolute;
-            width: 100%;
-            min-height: 380px;
-            right: 0;
-            clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 25%);
-            top: 0;
-
-            @include respond-to("tablet") {
-                width: 300px;
-                min-height: 200px;
-                top: 150px;
-            }
-        }
-        .awards{
-            @include respond-to("big-tablet") {
-                display: none;
-            }
-        }
+      @include respond-to("tablet") {
+        width: 300px;
+        min-height: 200px;
+        top: 150px;
+      }
     }
-
-    &__right {
-        width: 62%;
-        background-color: $white-color;
-        min-height: 500px;
-        clip-path: polygon(0 256px, 100% 0, 100% 100%, 0 100%);
-        padding: 280px 0 100px 0;
-
-        @include respond-to("big-tablet") {
-            width: 100%;
-            padding: 30px 4%;
-            clip-path: none;
-        }
-        .awards{
-            display: none;
-            background: $dark-background;
-            width: 108%;
-            margin-left: -4%;
-            padding: 10px 4% 20px 4%;
-            @include respond-to("big-tablet") {
-                display: block;
-            }
-        }
+    .awards {
+      @include respond-to("big-tablet") {
+        display: none;
+      }
     }
+  }
+
+  &__right {
+    width: 62%;
+    background-color: $white-color;
+    min-height: 500px;
+    clip-path: polygon(0 256px, 100% 0, 100% 100%, 0 100%);
+    padding: 280px 0 100px 0;
+
+    @include respond-to("big-tablet") {
+      width: 100%;
+      padding: 30px 4% 0px 4%;
+      clip-path: none;
+    }
+    .awards {
+      display: none;
+      background: $dark-background;
+      width: 108%;
+      margin-left: -4%;
+      padding: 10px 4% 20px 4%;
+      @include respond-to("big-tablet") {
+        display: block;
+      }
+    }
+  }
 }

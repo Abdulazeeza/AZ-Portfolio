@@ -15,49 +15,113 @@ const Skills = () => {
         <div className="skill-item">
           <p className="white--text mb-0">HTML</p>
           <div className="skill-item__progress">
-            <primaryComponents.Progress progress={isIntersecting ? "95": "0"} />
+            <primaryComponents.Progress
+              progress={isIntersecting ? "100" : "0"}
+            />
           </div>
         </div>
         <div className="skill-item">
           <p className="white--text mb-0">CSS</p>
           <div className="skill-item__progress">
-            <primaryComponents.Progress progress={isIntersecting ? "95": "0"} />
+            <primaryComponents.Progress
+              progress={isIntersecting ? "100" : "0"}
+            />
+          </div>
+        </div>
+        <div className="skill-item">
+          <p className="white--text mb-0">Sass</p>
+          <div className="skill-item__progress">
+            <primaryComponents.Progress
+              progress={isIntersecting ? "100" : "0"}
+            />
           </div>
         </div>
         <div className="skill-item">
           <p className="white--text mb-0">JavaScript</p>
           <div className="skill-item__progress">
-            <primaryComponents.Progress progress={isIntersecting ? "95": "0"} />
+            <primaryComponents.Progress
+              progress={isIntersecting ? "100" : "0"}
+            />
           </div>
         </div>
         <div className="skill-item">
-          <p className="white--text mb-0">React.js</p>
+          <p className="white--text mb-0">JQuery</p>
           <div className="skill-item__progress">
-            <primaryComponents.Progress progress={isIntersecting ? "95": "0"} />
-          </div>
-        </div>
-        <div className="skill-item">
-          <p className="white--text mb-0">Vue.js</p>
-          <div className="skill-item__progress">
-            <primaryComponents.Progress progress={isIntersecting ? "95": "0"} />
+            <primaryComponents.Progress
+              progress={isIntersecting ? "100" : "0"}
+            />
           </div>
         </div>
         <div className="skill-item">
           <p className="white--text mb-0">TypeScript</p>
           <div className="skill-item__progress">
-            <primaryComponents.Progress progress={isIntersecting ? "90": "0"} />
+            <primaryComponents.Progress
+              progress={isIntersecting ? "100" : "0"}
+            />
+          </div>
+        </div>
+        <div className="skill-item">
+          <p className="white--text mb-0">React.js</p>
+          <div className="skill-item__progress">
+            <primaryComponents.Progress
+              progress={isIntersecting ? "100" : "0"}
+            />
+          </div>
+        </div>
+        <div className="skill-item">
+          <p className="white--text mb-0">Vue.js</p>
+          <div className="skill-item__progress">
+            <primaryComponents.Progress
+              progress={isIntersecting ? "100" : "0"}
+            />
+          </div>
+        </div>
+        <div className="skill-item">
+          <p className="white--text mb-0">Redux</p>
+          <div className="skill-item__progress">
+            <primaryComponents.Progress
+              progress={isIntersecting ? "100" : "0"}
+            />
+          </div>
+        </div>
+        <div className="skill-item">
+          <p className="white--text mb-0">Vuex</p>
+          <div className="skill-item__progress">
+            <primaryComponents.Progress
+              progress={isIntersecting ? "100" : "0"}
+            />
+          </div>
+        </div>
+        <div className="skill-item">
+          <p className="white--text mb-0">React Native</p>
+          <div className="skill-item__progress">
+            <primaryComponents.Progress
+              progress={isIntersecting ? "95" : "0"}
+            />
+          </div>
+        </div>
+        <div className="skill-item">
+          <p className="white--text mb-0">Data Structure and Algorithm</p>
+          <div className="skill-item__progress">
+            <primaryComponents.Progress
+              progress={isIntersecting ? "95" : "0"}
+            />
           </div>
         </div>
         <div className="skill-item">
           <p className="white--text mb-0">Node.js</p>
           <div className="skill-item__progress">
-            <primaryComponents.Progress progress={isIntersecting ? "70": "0"} />
+            <primaryComponents.Progress
+              progress={isIntersecting ? "85" : "0"}
+            />
           </div>
         </div>
         <div className="skill-item">
           <p className="white--text mb-0">Python</p>
           <div className="skill-item__progress">
-            <primaryComponents.Progress progress={isIntersecting ? "70": "0"} />
+            <primaryComponents.Progress
+              progress={isIntersecting ? "85" : "0"}
+            />
           </div>
         </div>
       </div>

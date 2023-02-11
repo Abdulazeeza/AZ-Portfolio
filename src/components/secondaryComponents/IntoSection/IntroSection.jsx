@@ -14,9 +14,9 @@ const IntroSection = () => {
         <div className="bio">
           <h1 className="mb-0">
             <span className="white--text">Abdulazeez</span>
-            <span className="purple--text ml-3">Aiyeleso</span>
+            <span className="purple--text ml-3">Abdulazeez</span>
           </h1>
-          <h3 className="white--text mb-0">Front-end Engineer</h3>
+          <h3 className="white--text mb-0">Software Developer</h3>
           <hr />
 
           <div className="bio__contact mt-4">

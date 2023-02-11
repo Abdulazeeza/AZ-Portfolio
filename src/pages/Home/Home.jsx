@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="landing-page">
       <a
-        href="https://drive.google.com/file/d/13NHhpQKkfuSmllM9EZVsaO2NVJb1uNau/view?usp=sharing"
+        href="https://drive.google.com/file/d/1nGsMuzk9LGv4vxPaLTLOITF8dUADWEhH/view?usp=share_link"
         target="_blank"
         className="download-resume"
         rel="noreferrer"

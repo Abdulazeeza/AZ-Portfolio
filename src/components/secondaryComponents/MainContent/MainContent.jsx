@@ -16,16 +16,17 @@ const MainContent = () => {
       <div className="landing-page__main__right">
         <secondaryComponents.Education />
         <secondaryComponents.Experience />
+        <secondaryComponents.Projects />
         <secondaryComponents.Hobbies />
         {/* show on tablet downwards */}
         <div className="awards">
           <secondaryComponents.Awards />
         </div>
-        <div className="mt-4 text-center">
+        {/* <div className="mt-4 text-center">
           <span className="purple--text">
             Inspired by <span className="dark--text">Zuri Remote</span>
           </span>
-        </div>
+        </div> */}
       </div>
     </main>
   );
