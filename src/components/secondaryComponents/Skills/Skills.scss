@@ -1,9 +1,22 @@
-.skill-item{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-    &__progress{
-        width: 150px;
-    }
+@import "../../../assets/styles/variables";
+@import "../../../assets/styles/mixins";
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  &__progress {
+    width: 150px;
+  }
+}
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  &__item {
+    border: 1px solid $light-background;
+    padding: 5px 10px 3px 10px;
+    border-radius: 5px;
+    color: $light-background;
+  }
 }

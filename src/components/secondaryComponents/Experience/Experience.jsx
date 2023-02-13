@@ -3,7 +3,7 @@ import { primaryComponents } from "../../primaryComponents";
 
 const Experience = () => {
   return (
-    <div className="experiences mt-4">
+    <div className="experiences">
       <h4 className="purple--text mb-0" style={{ fontWeight: "600" }}>
         WORK EXPERIENCE
       </h4>
@@ -11,7 +11,7 @@ const Experience = () => {
       <div className="mt-4">
         <primaryComponents.VerticalProgress>
           <h6 className="dark--text mb-0">July 2021 - Date</h6>
-          <h5 className="dark--text mb-0">Enlumi - Lead Frontend Engineer</h5>
+          <h5 className="dark--text mb-0">Enlumi - Lead Frontend Developer</h5>
           <ul>
             <li>
               Developed a fintech application that allows users to send and
@@ -64,7 +64,7 @@ const Experience = () => {
         </primaryComponents.VerticalProgress>
         <primaryComponents.VerticalProgress>
           <h6 className="dark--text mb-0">November 2020 - February 2022</h6>
-          <h5>Brandmobile Africa - Frontend Engineer</h5>
+          <h5>Brandmobile Africa - Frontend Developer</h5>
           <ul>
             <li>
               Built a platform that enables retailers without capital to have

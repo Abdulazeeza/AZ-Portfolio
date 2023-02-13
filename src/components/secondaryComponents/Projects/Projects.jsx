@@ -3,9 +3,9 @@ import { primaryComponents } from "../../primaryComponents";
 
 const Experience = () => {
   return (
-    <div className="projects">
+    <div className="projects mt-3">
       <h4 className="purple--text mb-0" style={{ fontWeight: "600" }}>
-        LIVE PROJECTS
+        PROJECTS
       </h4>
       <primaryComponents.Hr />
       <div className="mt-4">
@@ -52,6 +52,39 @@ const Experience = () => {
               href="https://kuuzza.com"
             >
               https://kuuzza.com
+            </a>
+          </li>
+          <li>
+            Enlumi Data -{" "}
+            <a
+              className="purple--text"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.enlumidata.com"
+            >
+              https://www.enlumidata.com
+            </a>
+          </li>
+          <li>
+            Arcade Game -{" "}
+            <a
+              className="purple--text"
+              target="_blank"
+              rel="noreferrer"
+              href="https://herro-game.netlify.app"
+            >
+              https://herro-game.netlify.app
+            </a>
+          </li>
+          <li>
+            Memory Game -{" "}
+            <a
+              className="purple--text"
+              target="_blank"
+              rel="noreferrer"
+              href="https://herro-game.netlify.app"
+            >
+              https://herro-game.netlify.app
             </a>
           </li>
         </ul>
