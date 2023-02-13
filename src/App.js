@@ -10,12 +10,12 @@ const App = () => {
     <BrowserRouter>
       <layouts.MainLayout>
         <Helmet>
-          <title>Abdulazeez Aiyeleso Portfolio</title>
-          <meta name="description" content="Abdulazeez Aiyeleso Portfolio" />
+          <title>Abdulazeez Abdulazeez</title>
+          <meta name="description" content="Abdulazeez Abdulazeez" />
         </Helmet>
         <Routes>
           {/* This is a sample route*/}
-          <Route path="/" element={<pages.Home/> } />
+          <Route path="/" element={<pages.Home />} />
         </Routes>
       </layouts.MainLayout>
     </BrowserRouter>

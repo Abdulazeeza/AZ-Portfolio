@@ -3,7 +3,7 @@ import { primaryComponents } from "../../primaryComponents";
 
 const Hobbies = () => {
   return (
-    <div className="hobbies">
+    <div className="hobbies mt-4">
       <h4 className="purple--text mb-0" style={{ fontWeight: "600" }}>
         INTEREST
       </h4>

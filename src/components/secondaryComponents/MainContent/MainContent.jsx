@@ -14,8 +14,8 @@ const MainContent = () => {
         </div>
       </div>
       <div className="landing-page__main__right">
-        <secondaryComponents.Education />
         <secondaryComponents.Experience />
+        <secondaryComponents.Education />
         <secondaryComponents.Projects />
         <secondaryComponents.Hobbies />
         {/* show on tablet downwards */}
